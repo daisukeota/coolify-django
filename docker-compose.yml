@@ -23,7 +23,7 @@ volumes:
     static_volume: {}
 
 healthcheck:
-  test: ["CMD", "curl", "-f", "http://localhost:8000"]
+  test: ["CMD", "curl", "-f", "http://localhost:8000/ht/"]
   interval: 1m30s
   timeout: 10s
   retries: 3
